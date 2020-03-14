@@ -1,1 +1,1 @@
-This are the image resources used
+These are the image resources used
