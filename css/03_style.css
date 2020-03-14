@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+body{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+#welcome p span{
+  font-weight: bold;
+}
+
+#about p span{
+  font-style: italic;
+}
