@@ -1,0 +1,15 @@
+h1{
+    /* display: none;   This will remove the h1 completely */
+
+    /* visibility: hidden; This will hidden the h1 (its space will be blank but occupied)*/
+
+    color: teal !important /* This is an important tag and is used to priortize the property over the other if it is over riden later in the code.*/;
+    
+    /* The class selector takes precedence over a element selector so even if a class selector is over ridden later in the code by a element selector then there will be priority given to the class selector. */
+  }
+
+  .hello{
+      color: tomato;
+      padding-top: -30px;
+      margin-left: -30px;
+  }
