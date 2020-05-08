@@ -117,9 +117,92 @@ span{font-weight: bold;
 
 "font-style" property is used for styling of the text. We can use different stylings.
 
+## Color Type
+
+- Color Name
+```
+color: red;
+```
+"color" property is used to color the text.
+
+- RGB Values
+```
+color: rgb(85,51,255);
+```
+RGB = Red Green Blue
+
+rbg(R,G,B)  Here R, G and B are analog values of red, green and blue respectively.
+Where 0 is the minimum and 255 is the maximum.
+
+(0,0,0) is for Black
+
+(255.255,255) is for White
+
+- Hexadecimal Values
+```
+color: #ff00ff;
+```
+It always starts with a "#" followed by a three or six digit number or alphabet or both.
+
+#000000 -> Black
+
+#ffffff -> White
 
 
+## Backgrounds and Borders
 
+```
+background-color: red;
+background: red;
+```
+"background-color" property is used to give the background a color.
+
+"background" property with color input will give the same result.
+```
+border-width: 3px;
+border-color: red;
+border-style: solid;
+```
+To make a border these 3 properties are must. But we can write this in short hand.
+```
+border: 3px solid red;
+```
+```
+border-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+```
+"border-radius" property is used to rounden up the corners and edges.
+
+We can target a specific part of the border to rounden up.
+
+We can also use "border-radius" without having a border.
+```
+border-top: blue solid 3px;
+```
+We can also apply border to a specific part(top, right, bottom, left).
+```
+background-image: url('../images/stars.jpg');
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+```
+"background-image" property holds the url of the image.
+
+"background-repeat" property sets the repetition of the image. 
+
+"background-position" property sets the position of the image.
+
+"background-size" property sets the size of the image. 'cover' is used to cover the whole image.
+
+We can also write this in short hand
+```
+background: url('../images/stars.jpg') no-repeat center center/cover;
+```
+```
+background-attachment: fixed;
+```
+"background-attachment" property is used when we want to fix an image to browser window.
 
 
 
